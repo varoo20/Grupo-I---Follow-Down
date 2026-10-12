@@ -300,7 +300,7 @@ flowchart TD
     G -->|Esc| H[Pausa]
     H -->|Reanudar| G
     H -->|Salir| B
-    I --> G|Siguiente nivel|
+    I --> |Siguiente nivel| G
     G --> G|Morir|
     G -->|Condición de victoria| I[Fin de partida]
     I -->|Reiniciar nivel| G
