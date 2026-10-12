@@ -2,7 +2,7 @@
 
 [← Volver al README](README.md)
 
-**Grupo X** · Alumna Uno Ejemplo, Alumno Dos Ejemplo, Alumna Tres Ejemplo, Alumno Cuatro Ejemplo
+**Grupo I** · Álvaro Montero Carrasco, Carla Urdiales Aguado, Jorge Franco López de Gauna
 
 ## Índice
 
@@ -26,13 +26,15 @@
 
 AAA es un juego de AAA para dos jugadores en el que AAA AAA AAA. La idea principal es AAA AAA AAA AAA AAA AAA AAA AAA.
 
+--- es un juego multijugador de puzles y plataformas cooperativo para 2 o más jugadores en el que deben unir fuerzas (o no!) a través de distintos niveles con diferentes temáticas, resolviendo distintos puzles y parkours. La idea principal es un juego cooperativo de plataformas, puzles cooperativos donde deben buscarse coleccionables a través de los distintos niveles. La comunicación y la colaboración entre los jugadores es necesaria para avanzar.
+
 ### 1.2. Propuesta de valor
 
-¿Qué hace diferente a vuestro juego? AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA.
+¿Qué hace diferente a vuestro juego? ¿Conocéis Pico Park? ¿Cansados de su estética minimalista y sus escenarios vacíos? ¿Queréis una innovación en puzles y niveles? ¡Presentamos ---! Este juego cooperativo rescata el trabajo en equipo (si es que confías en tu compañer@!), añadiéndole una estética completamente distinta y cambiante, así como nuevos desafíos y situaciones a afrontar!
 
-- Característica diferencial 1: AAA.
-- Característica diferencial 2: BBB.
-- Característica diferencial 3: CCC.
+- Característica diferencial 1: Estética renovada y más detallada, sin dejar de lado lo acogedor.
+- Característica diferencial 2: Puzles, desafíos y plataformeo diferentes e innovadores.
+- Característica diferencial 3: Niveles únicos, con guiños a otros videojuegos, con estéticas personalizadas.
 
 ![Imagen promocional / key art del juego](img/portada_presentacion.png)
 
@@ -47,12 +49,12 @@ AAA es un juego de AAA para dos jugadores en el que AAA AAA AAA. La idea princip
 | Aspecto | Descripción |
 | :--- | :--- |
 | **Título** | AAA |
-| **Género** | AAA (p. ej. plataformas competitivo, *party game*, *arena shooter*...) |
-| **Número de jugadores** | 2 (en red, tiempo real) |
-| **Público objetivo** | AAA (p. ej. jugadores casuales de 12 a 30 años) |
-| **Clasificación PEGI** | PEGI AAA (justificar) |
+| **Género** | Plataformas cooperativo, puzles (p. ej. plataformas competitivo, *party game*, *arena shooter*...) |
+| **Número de jugadores** | 2 jugadores en red, tiempo real |
+| **Público objetivo** | Jugadores casuales a partir de 8 años. Ideal para familias! |
+| **Clasificación PEGI** | PEGI 7 (Es un juego "family-friendly", por lo que el único incoveniente real es la dificultad de los puzles y desafíos) |
 | **Plataforma** | Navegador web (PC), desarrollado con Phaser 3 |
-| **Duración de una partida** | AAA minutos |
+| **Duración de una partida** | A partir de 5 minutos |
 | **Representación** | 2D |
 | **Licencia** | Apache 2.0 |
 
@@ -64,7 +66,7 @@ AAA es un juego de AAA para dos jugadores en el que AAA AAA AAA. La idea princip
 
 > *Rúbrica — Jugabilidad / Objetivo del juego:* debe estar claramente definido.
 
-El objetivo de cada jugador es AAA AAA AAA. La partida termina cuando AAA AAA. Gana el jugador que AAA AAA.
+El objetivo de los jugadores, al ser un juego cooperativo, es mediante la comunicación y colaboración entre ellos, superar distintos niveles, los cuales tendrán una mezcla de desafíos únicos : puzles, saltos, combinaciones... La partida termina cuando ambos jugadores son capaces de llegar al final, superando dichos desafíos y obteniendo el coleccionable necesario. Por tanto, ambos jugadores ganan/pierden a la vez. El reinicio del nivel se dará en caso de que alguno de los 2 jugadores "muera", o se reinicie por consenso. El juego tendrá una progresión por los niveles linealmente, aunque se pueda seleccionar el nivel entre los ya desbloqueados.
 
 ### 3.2. Controles
 
@@ -75,9 +77,10 @@ El objetivo de cada jugador es AAA AAA AAA. La partida termina cuando AAA AAA. G
 | Moverse a la izquierda | `A` | `←` |
 | Moverse a la derecha | `D` | `→` |
 | Saltar | `W` | `↑` |
-| Acción especial AAA | `Espacio` | `Enter` |
-| Apuntar / disparar | Ratón (clic izquierdo) | Ratón (clic izquierdo) |
-| Pausa | `Esc` | `Esc` |
+| Coger/Soltar Objeto | `Espacio` | `Enter` |
+| Interactuar con los botones dentro/fuera del nivel | Ratón (clic izquierdo) | Ratón (clic izquierdo) |
+| Pausa / Reanudar | `Esc` | `Esc` |
+| Reiniciar Nivel | `R` | `P` |
 
 ### 3.3. Mecánicas
 
@@ -199,8 +202,8 @@ El juego utiliza un estilo **AAA** (p. ej. *pixel art* de 32×32 píxeles) porqu
 
 > *Rúbrica — Imagen / Aspectos técnicos:* uso de cámara y 2D/3D.
 
-- **Representación:** 2D, vista AAA (lateral / cenital / isométrica).
-- **Cámara:** AAA (fija mostrando todo el escenario / sigue a ambos jugadores con *zoom* dinámico / pantalla dividida...).
+- **Representación:** 2D, vista lateral.
+- **Cámara:** Seguimiento a los jugadores con *zoom* dinámico.
 - **Resolución base:** AAA × AAA píxeles.
 
 ### 5.5. Inspiración artística y cultural
@@ -211,7 +214,8 @@ El juego utiliza un estilo **AAA** (p. ej. *pixel art* de 32×32 píxeles) porqu
 
 *Figura 5. Moodboard con las referencias visuales.*
 
-- **AAA** (videojuego, año): tomamos AAA AAA AAA [1].
+- **AAA** (Hollow Knight, 2017): tomamos AAA AAA AAA [1].
+- **AAA** (Pico Park, 2019): tomamos AAA AAA AAA [1].
 - **BBB** (película / cómic / movimiento artístico): BBB BBB BBB [2].
 - **CCC** (referencia cultural): CCC CCC CCC.
 
@@ -232,18 +236,20 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 | Pista | Escena | Estilo / ambiente | Fuente / licencia |
 | :--- | :--- | :--- | :--- |
 | AAA | Menú principal | AAA (p. ej. *chiptune* relajado) | AAA (propia / CC-BY...) |
-| BBB | Partida | BBB (p. ej. ritmo rápido, 140 BPM) | BBB |
-| CCC | Victoria / derrota | CCC | CCC |
+| CCC | Sala de espera | CCC | CCC |
+| CCC | Selector de nivel | CCC | CCC |
+| BBB | Nivel | BBB (p. ej. ritmo rápido, 140 BPM) | BBB |
+| CCC | Victoria | CCC | CCC |
 
 ### 6.2. Efectos de sonido
 
 | Efecto | Momento en que se reproduce |
 | :--- | :--- |
 | Salto | Al pulsar la tecla de salto |
-| Golpe / impacto | AAA |
-| Recoger objeto | AAA |
+| Caída | Al morir un personaje |
+| Recoger objeto | Recoger/Soltar objeto |
 | Botones de la interfaz | Al pasar el ratón y al hacer clic |
-| Cuenta atrás | AAA |
+| Coleccionable | Al recoger coleccionable |
 
 ---
 
