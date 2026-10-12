@@ -1,3 +1,27 @@
+Logotipo del Juego
+
+Imagen promocional / key art del juego
+
+Mapa del escenario (1 nivel)
+
+Boceto personajes
+
+Boceto enemigo (si tenemos)
+
+Paleta de colores
+
+Moodboard
+
+Menú principal
+
+Boceto pantalla del juego
+
+Boceto Ajustes
+
+Boceto Fin de partida (Cambiar a otra pantalla? Si no, hacer soft lock)
+
+Diagrama de flujo
+
 <p align="center">
   <img src="img/logo.png" alt="Logotipo de AAA" width="400">
 </p>
