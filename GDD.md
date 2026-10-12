@@ -298,7 +298,7 @@ flowchart TD
     K --> L[ Sala / Selector de nivel]
     L --> G[Partida]
     G -->|Esc| H[Pausa]
-    H -->|Reanudar (Esc)| G
+    H -->|Reanudar| G
     H -->|Salir| B
     H -->|Siguiente nivel| G
     H -->|Morir| H
