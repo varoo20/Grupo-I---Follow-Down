@@ -289,18 +289,24 @@ flowchart TD
     A[Pantalla de carga] --> B[Menú principal]
     B --> C[Jugar]
     B --> D[Ajustes]
-    B --> E[Ayuda]
+    B --> E[Salir]
     B --> F[Créditos]
     D --> B
     E --> B
     F --> B
-    C --> G[Partida]
+    C --> K[Crear Sala/Unirse a Sala]
+    K --> L[ Sala / Selector de nivel]
+    L --> G[Partida]
     G -->|Esc| H[Pausa]
-    H -->|Reanudar| G
+    H -->|Reanudar (Esc)| G
     H -->|Salir| B
+    H -->|Siguiente nivel| G
+    H -->|Morir| H
     G -->|Condición de victoria| I[Fin de partida]
-    I -->|Revancha| G
-    I -->|Volver| B
+    I -->|Reiniciar nivel| G
+    I -->|Volver| L
+    L -->|Volver| B
+    
 ```
 
 **Opción 2 — Imagen** exportada desde draw.io, Excalidraw, Figma...:
