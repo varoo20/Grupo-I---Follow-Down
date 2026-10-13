@@ -181,9 +181,9 @@ El juego utiliza un estilo oscuro, melancólico, con ciertos toques luminosos o 
 
 *Figura 5. Moodboard con las referencias visuales.*
 
-- **AAA** (Hollow Knight, 2017): tomamos como referencia la estética y el estilo visual que usan en el juego.
-- **AAA** (Pico Park, 2019): tomamos la jugabilidad y el diseño de niveles.
-- **BBB** (Fireboy and Watergirl, 2009): tomamos la jugabilidad y el diseño de niveles.
+- **1** (Hollow Knight, 2017): tomamos como referencia la estética y el estilo visual que usan en el juego.
+- **2** (Pico Park, 2019): tomamos la jugabilidad y el diseño de niveles.
+- **3** (Fireboy and Watergirl, 2009): tomamos la jugabilidad y el diseño de niveles.
 
 ### 5.6. Bocetos de personajes y pantallas
 
@@ -225,17 +225,13 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 ![Boceto de la pantalla de juego](img/boceto_pantalla_salas.png)
 
-*Figura 7. Pantalla de juego: Creación de salas.*
-
-![Boceto de la pantalla de juego desarrollada](img/boceto_pantalla_salas_desarrollada.png)
-
-*Figura 8. Pantalla de juego: Creación de salas, desarrollada.*
+*Figura 7. Pantalla de juego: Creación de salas, boceto.*
 
 **Pantalla de juego 2 (HUD)**
 
 ![Boceto de la pantalla de juego](img/boceto_pantalla_selector_nivel.png)
 
-*Figura 9. Pantalla de juego: Selector de niveles.*
+*Figura 8. Pantalla de juego: Selector de niveles, boceto.*
 
 **Ajustes y pausa**
 
@@ -244,7 +240,7 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
   <img src="img/boceto_pausa.png" alt="Boceto de pausa" width="45%">
 </p>
 
-*Figura 10. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
+*Figura 9. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
 
 ### 7.2. Diagrama de flujo
 
@@ -273,7 +269,7 @@ flowchart TD
     
 ```
 
-*Figura 11. Diagrama de flujo entre pantallas.*
+*Figura 10. Diagrama de flujo entre pantallas.*
 
 ---
 
