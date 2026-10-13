@@ -1,4 +1,4 @@
-# AAA — Game Design Document
+# Follow Down — Game Design Document
 
 [← Volver al README](README.md)
 
@@ -24,13 +24,11 @@
 
 ### 1.1. Concepto del juego
 
-AAA es un juego de AAA para dos jugadores en el que AAA AAA AAA. La idea principal es AAA AAA AAA AAA AAA AAA AAA AAA.
-
---- es un juego multijugador de puzles y plataformas cooperativo para 2 o más jugadores en el que deben unir fuerzas (o no!) a través de distintos niveles con diferentes temáticas, resolviendo distintos puzles y parkours. La idea principal es un juego cooperativo de plataformas, puzles cooperativos donde deben buscarse coleccionables a través de los distintos niveles. La comunicación y la colaboración entre los jugadores es necesaria para avanzar.
+Follow Down es un juego multijugador de puzles y plataformas cooperativo para 2 o más jugadores en el que deben unir fuerzas (o no!) a través de distintos niveles con diferentes temáticas, resolviendo distintos puzles y parkours. La idea principal es un juego cooperativo de plataformas, puzles cooperativos donde deben buscarse coleccionables a través de los distintos niveles. La comunicación y la colaboración entre los jugadores es necesaria para avanzar.
 
 ### 1.2. Propuesta de valor
 
-¿Qué hace diferente a vuestro juego? ¿Conocéis Pico Park? ¿Cansados de su estética minimalista y sus escenarios vacíos? ¿Queréis una innovación en puzles y niveles? ¡Presentamos ---! Este juego cooperativo rescata el trabajo en equipo (si es que confías en tu compañer@!), añadiéndole una estética completamente distinta y cambiante, así como nuevos desafíos y situaciones a afrontar!
+¿Conocéis Pico Park? ¿Cansados de su estética minimalista y sus escenarios vacíos? ¿Queréis una innovación en puzles y niveles? ¡Presentamos Follow Down! Este juego cooperativo rescata el trabajo en equipo (si es que confías en tu compañer@!), añadiéndole una estética completamente distinta y cambiante, así como nuevos desafíos y situaciones a afrontar!
 
 - Característica diferencial 1: Estética renovada y más detallada, sin dejar de lado lo acogedor.
 - Característica diferencial 2: Puzles, desafíos y plataformeo diferentes e innovadores.
@@ -44,12 +42,8 @@ AAA es un juego de AAA para dos jugadores en el que AAA AAA AAA. La idea princip
 
 ## 2. Especificaciones básicas
 
-> *Rúbrica — Documento / Especificaciones básicas:* género, público objetivo/edad y plataforma.
-
-| Aspecto | Descripción |
-| :--- | :--- |
-| **Título** | AAA |
-| **Género** | Plataformas cooperativo, puzles (p. ej. plataformas competitivo, *party game*, *arena shooter*...) |
+| **Título** | Follow Down |
+| **Género** | Plataformas cooperativo, puzles |
 | **Número de jugadores** | 2 jugadores en red, tiempo real |
 | **Público objetivo** | Jugadores casuales a partir de 8 años. Ideal para familias! |
 | **Clasificación PEGI** | PEGI 7 (Es un juego "family-friendly", por lo que el único incoveniente real es la dificultad de los puzles y desafíos) |
@@ -64,27 +58,20 @@ AAA es un juego de AAA para dos jugadores en el que AAA AAA AAA. La idea princip
 
 ### 3.1. Objetivo del juego
 
-> *Rúbrica — Jugabilidad / Objetivo del juego:* debe estar claramente definido.
-
-El objetivo de los jugadores, al ser un juego cooperativo, es mediante la comunicación y colaboración entre ellos, superar distintos niveles, los cuales tendrán una mezcla de desafíos únicos : puzles, saltos, combinaciones... La partida termina cuando ambos jugadores son capaces de llegar al final, superando dichos desafíos y obteniendo el coleccionable necesario. Por tanto, ambos jugadores ganan/pierden a la vez. El reinicio del nivel se dará en caso de que alguno de los 2 jugadores "muera", o se reinicie por consenso. El juego tendrá una progresión por los niveles linealmente, aunque se pueda seleccionar el nivel entre los ya desbloqueados.
+El objetivo de los jugadores, al ser un juego cooperativo, es mediante la comunicación y colaboración entre ellos, superar distintos niveles, los cuales tendrán una mezcla de desafíos únicos : puzles, saltos, combinaciones... La partida termina cuando ambos jugadores son capaces de llegar al final, superando dichos desafíos y obteniendo el coleccionable(s) necesario(s). Por tanto, ambos jugadores ganan/pierden a la vez. El reinicio del nivel se dará en caso de que alguno de los 2 jugadores "muera", o se reinicie por consenso. El juego tendrá una progresión por los niveles linealmente, aunque se pueda seleccionar el nivel entre los ya desbloqueados. Asimismo, el juego presentará distintos logros a través de sus niveles, con los cuales desbloquearán nuevos estilos.
 
 ### 3.2. Controles
 
-> *Rúbrica — Jugabilidad / Controles.* Indicad teclado y ratón.
-
-| Acción | Jugador 1 | Jugador 2 |
-| :--- | :---: | :---: |
 | Moverse a la izquierda | `A` | `←` |
 | Moverse a la derecha | `D` | `→` |
 | Saltar | `W` | `↑` |
-| Coger/Soltar Objeto | `Espacio` | `Enter` |
+| Agacharse | `Shift` | `L` |
+| Coger/Soltar Objeto | `Espacio` | `P` |
 | Interactuar con los botones dentro/fuera del nivel | Ratón (clic izquierdo) | Ratón (clic izquierdo) |
 | Pausa / Reanudar | `Esc` | `Esc` |
-| Reiniciar Nivel | `R` | `P` |
+| Reiniciar Nivel | `R` | `R` |
 
 ### 3.3. Mecánicas
-
-> *Rúbrica — Jugabilidad / Mecánicas.*
 
 #### 3.3.1. Mecánicas principales
 
@@ -116,13 +103,12 @@ AAA AAA AAA AAA (p. ej. +10 puntos por AAA, −5 por BBB).
 
 ### 3.5. Escenario
 
-> *Rúbrica — Jugabilidad / Calidad del escenario.*
+El escenario representa un nivel jugable. Cada nivel es distinto al anterior, por lo que la colocación de los objetos, personajes, y objetivo variarán. Se componen de 4 zonas principalmente:
 
-El escenario representa AAA AAA AAA. Se compone de AAA zonas:
-
-1. **Zona AAA:** AAA AAA AAA.
-2. **Zona BBB:** BBB BBB BBB.
-3. **Zona CCC:** CCC CCC CCC.
+1. **Zona 1:** Zona(s) de aparición de los jugadores.
+2. **Zona 2:** Zonas con desafíos, obstáculos, plataformas.
+3. **Zona 3:** Zona(s) de aparición de objetos/coleccionables.
+4. **Zona 4:** Zona de finalización del nivel.
 
 ![Mapa del escenario](img/mapa_escenario.png)
 
@@ -131,8 +117,6 @@ El escenario representa AAA AAA AAA. Se compone de AAA zonas:
 ---
 
 ## 4. Narrativa
-
-> *Rúbrica — Narrativa:* riqueza de la historia principal y de los personajes.
 
 ### 4.1. Historia
 
@@ -162,29 +146,21 @@ AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA.
 - **Habilidad especial:** BBB BBB BBB.
 - **Trasfondo:** BBB BBB BBB BBB BBB BBB BBB BBB BBB.
 
-#### CCC (enemigo / personaje no jugable)
-
-<img src="img/enemigo_1.png" alt="Boceto del enemigo CCC" width="250">
-
-CCC CCC CCC CCC CCC CCC CCC CCC.
-
 ---
 
 ## 5. Imagen y diseño visual
 
 ### 5.1. Logotipo
 
-> *Rúbrica — Imagen / Logotipo.*
-
 ![Logotipo del juego](img/logo.png)
 
-*Figura 3. Logotipo del juego. Tipografía: AAA. Concepto: AAA AAA AAA.*
+*Figura 3. Logotipo del juego. Tipografía: Trajan Pro. Concepto: AAA AAA AAA.*
 
 ### 5.2. Estilo visual
 
 > *Rúbrica — Imagen / Estilo visual:* pixel art, cartoon, vectorial, etc.
 
-El juego utiliza un estilo **AAA** (p. ej. *pixel art* de 32×32 píxeles) porque AAA AAA AAA.
+El juego utiliza un estilo oscuro, melancólico, con ciertos toques luminosos o fluorescentes, dando la similitud al mundo subterráneo, lúgubre y apagado del que proceden los protagonistas.
 
 ### 5.3. Uso de colores
 
@@ -200,15 +176,11 @@ El juego utiliza un estilo **AAA** (p. ej. *pixel art* de 32×32 píxeles) porqu
 
 ### 5.4. Aspectos técnicos: cámara y representación
 
-> *Rúbrica — Imagen / Aspectos técnicos:* uso de cámara y 2D/3D.
-
 - **Representación:** 2D, vista lateral.
 - **Cámara:** Seguimiento a los jugadores con *zoom* dinámico.
-- **Resolución base:** AAA × AAA píxeles.
+- **Resolución base:** 1920 × 1080 píxeles.
 
 ### 5.5. Inspiración artística y cultural
-
-> *Rúbrica — Imagen / Inspiración:* referentes artísticos y culturales y vínculo con otros trabajos.
 
 ![Moodboard de inspiración](img/moodboard_inspiracion.png)
 
@@ -221,15 +193,11 @@ El juego utiliza un estilo **AAA** (p. ej. *pixel art* de 32×32 píxeles) porqu
 
 ### 5.6. Bocetos de personajes y pantallas
 
-> *Rúbrica — Imagen / Bocetos:* interfaz de menú, pantallas y personajes.
-
 Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes) y los de las pantallas en el apartado [7.1](#71-pantallas).
 
 ---
 
 ## 6. Sonido
-
-> *Rúbrica — Sonido:* música y efectos.
 
 ### 6.1. Banda sonora
 
@@ -248,7 +216,7 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 | Salto | Al pulsar la tecla de salto |
 | Caída | Al morir un personaje |
 | Recoger objeto | Recoger/Soltar objeto |
-| Botones de la interfaz | Al pasar el ratón y al hacer clic |
+| Botones de la interfaz | Al hacer clic |
 | Coleccionable | Al recoger coleccionable |
 
 ---
@@ -261,28 +229,34 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 ![Boceto del menú principal](img/boceto_menu_principal.png)
 
-*Figura 6. Menú principal: AAA AAA AAA.*
+*Figura 6. Menú principal: Follow Down*
 
 **Pantalla de juego (HUD)**
 
-![Boceto de la pantalla de juego](img/boceto_pantalla_juego.png)
+![Boceto de la pantalla de juego](img/boceto_pantalla_salas.png)
 
-*Figura 7. Pantalla de juego: AAA AAA AAA.*
+*Figura 7. Pantalla de juego: Creación de salas.*
 
-**Ajustes y fin de partida**
+![Boceto de la pantalla de juego desarrollada](img/boceto_pantalla_salas_desarrollada.png)
+
+*Figura 8. Pantalla de juego: Creación de salas, desarrollada.*
+
+**Pantalla de juego 2 (HUD)**
+
+![Boceto de la pantalla de juego](img/boceto_pantalla_selector_nivel.png)
+
+*Figura 9. Pantalla de juego: Selector de niveles.*
+
+**Ajustes y pausa**
 
 <p align="center">
   <img src="img/boceto_ajustes.png" alt="Boceto de ajustes" width="45%">
-  <img src="img/boceto_fin_partida.png" alt="Boceto de fin de partida" width="45%">
+  <img src="img/boceto_pausa.png" alt="Boceto de pausa" width="45%">
 </p>
 
-*Figura 8. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
+*Figura 10. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
 
 ### 7.2. Diagrama de flujo
-
-> *Rúbrica — Documento / Diagrama de flujo.* Podéis usar Mermaid (GitHub lo renderiza directamente) o una imagen exportada.
-
-**Opción 1 — Mermaid** (se dibuja automáticamente en GitHub):
 
 ```mermaid
 flowchart TD
@@ -309,17 +283,11 @@ flowchart TD
     
 ```
 
-**Opción 2 — Imagen** exportada desde draw.io, Excalidraw, Figma...:
-
-![Diagrama de flujo del juego](img/diagrama_flujo.png)
-
-*Figura 9. Diagrama de flujo entre pantallas.*
+*Figura 11. Diagrama de flujo entre pantallas.*
 
 ---
 
 ## 8. Comunicación y marketing
-
-> *Rúbrica — Comunicación / Marketing.*
 
 - **Público y mensaje clave:** AAA AAA AAA.
 - **Canales:** redes sociales (AAA, BBB), itch.io, Newgrounds, Game Jolt...
