@@ -16,8 +16,6 @@
 8. [Comunicación y marketing](#8-comunicación-y-marketing)
 9. [Referencias](#9-referencias)
 
-> **Nota para el alumnado:** este documento es una **plantilla de ejemplo**. Sustituid todos los textos `AAA`, `BBB`, `CCC`... y las imágenes de `img/` por vuestro contenido. Los bloques como este, que empiezan por *Rúbrica*, indican qué criterio de evaluación cubre cada apartado: **borradlos antes de entregar**. Límite orientativo: **3500 palabras**. Todo el documento debe estar en castellano (mezclar idiomas penaliza).
-
 ---
 
 ## 1. Introducción
@@ -48,7 +46,7 @@ Follow Down es un juego multijugador de puzles y plataformas cooperativo para 2 
 | **Público objetivo** | Jugadores casuales a partir de 8 años. Ideal para familias! |
 | **Clasificación PEGI** | PEGI 7 (Es un juego "family-friendly", por lo que el único incoveniente real es la dificultad de los puzles y desafíos) |
 | **Plataforma** | Navegador web (PC), desarrollado con Phaser 3 |
-| **Duración de una partida** | A partir de 5 minutos |
+| **Duración de una partida** | A partir de 3 minutos |
 | **Representación** | 2D |
 | **Licencia** | Apache 2.0 |
 
@@ -75,17 +73,20 @@ El objetivo de los jugadores, al ser un juego cooperativo, es mediante la comuni
 
 #### 3.3.1. Mecánicas principales
 
-- **AAA:** AAA AAA AAA AAA AAA AAA.
-- **BBB:** BBB BBB BBB BBB BBB BBB.
-- **CCC:** CCC CCC CCC CCC CCC CCC.
+- **Salto:** Para avanzar por los niveles.
+- **Muerte:** Si los pinchos caen al jugador, se reinicia el nivel.
+- **Zonas "infectadas":** Zonas de diferentes colores, únicas para cada jugador, mortal/infranqueable para el otro.
+- **Pulsar botones":** Mantenerse o presionar un botón para desbloquear plataformas u otros elementos.
+- **Recoger elementos":** Recoger piedras, trozos del nivel para colocar en otros lugares del mismo.
+- **Agacharse":** Para avanzar por lugares estrechos.
 
 #### 3.3.2. Objetos y power-ups
 
-| Objeto | Efecto | Duración | Aparición |
-| :--- | :--- | :---: | :--- |
-| AAA | AAA AAA AAA | 5 s | Aleatoria cada 15 s |
-| BBB | BBB BBB BBB | 10 s | Zona central del mapa |
-| CCC | CCC CCC CCC | Instantáneo | Al derrotar a un enemigo |
+| Trébol | Recolectable | N/A | Fija en todos los niveles |
+| Puerta final | Interactuable | N/A | Final del nivel |
+| Pinchos | Interactuable | Hasta que caigan | Fija en los niveles, desaparece al caer |
+| Piedra | Interactuable | N/A | Fija en los niveles, se puede mover por 1/2 jugadores |
+| Botón | Interactuable | N/A | Fija en los niveles, se puede presionar por 1 jugador, una única pulsación o pulsación prolongada |
 
 #### 3.3.3. Sistema de puntuación
 
@@ -93,13 +94,11 @@ El nivel se completara si se recoge el recolectable principal. A la par, habrá 
 
 ### 3.4. Físicas y dificultad
 
-> *Rúbrica — Jugabilidad / Físicas:* físicas variadas con elementos de dificultad.
-
-- **Gravedad y salto:** AAA AAA AAA.
-- **Colisiones:** AAA AAA AAA (con plataformas, entre jugadores, con proyectiles...).
-- **Rebotes / fricción / empujes:** AAA AAA AAA.
-- **Plataformas móviles o superficies especiales (hielo, rebote...):** AAA AAA AAA.
-- **Progresión de la dificultad:** a medida que avanza la partida AAA AAA AAA.
+- **Gravedad y salto:** Física normal, saltos normales para ambos jugadores.
+- **Colisiones:** Con plataformas, piedras, proyectiles.
+- **Rebotes / fricción / empujes:** Entre distintos elementos de los niveles (setas que rebotan).
+- **Plataformas móviles o superficies especiales (hielo, rebote...):** Zonas de hielo, setas que rebotan, plataformas con botones, pinchos que caen...
+- **Progresión de la dificultad:** A medida que se progresa por el juego, los niveles implementarán nuevas mecánicas, y aumentará la dificultad de los anteriores.
 
 ### 3.5. Escenario
 
@@ -126,7 +125,7 @@ Una familia muy normal de 5 integrantes, siendo Fika, Tonko y Lali los tres hijo
 
 #### FIKA (Jugador 1)
 
-<img src="img/personaje_1.png" alt="Boceto del personaje AAA" width="250">
+<img src="img/personaje_1.png" alt="Boceto del personaje Fika" width="250">
 
 - **Edad / origen:** 5 años
 - **Personalidad:** Una setita más tímida e inocente que es muy asustadiza con todo lo que se encuentra en las minas (Suele seguir a Take).
@@ -136,7 +135,7 @@ Una familia muy normal de 5 integrantes, siendo Fika, Tonko y Lali los tres hijo
 
 #### TAKE (Jugador 2)
 
-<img src="img/personaje_2.png" alt="Boceto del personaje BBB" width="250">
+<img src="img/personaje_2.png" alt="Boceto del personaje Take" width="250">
 
 - **Edad / origen:** 5 años
 - **Personalidad:** Una seta que es más valiente que Fika y suele adentrarse siempre a la aventura.
@@ -164,11 +163,11 @@ El juego utiliza un estilo oscuro, melancólico, con ciertos toques luminosos o 
 
 ![Paleta de colores](img/paleta_colores.png)
 
-*Figura 4. Paleta de colores del juego.*
+*Figura 4. Paleta de colores del juego. Primera aproximación*
 
-- **Fondo (`#1B1F3B`):** AAA AAA AAA.
-- **Jugador 1 (`#E94560`) / Jugador 2 (`#0F9BD7`):** colores complementarios para distinguir fácilmente a cada jugador.
-- **Objetos (`#F5C518`):** AAA AAA AAA.
+- **Fondo (`#254A36`, `#0F211E`, `#252E4A` ):** Tonos verdosos, azules oscuros y derivados, con toques negros para enfatizar la oscuridad.
+- **Jugador 1 (`#FA7878`) / Jugador 2 (`#FFBD54`):** Color rojo para expresar la afectividad y sensibilidad, junto al naranja para demostrar la cercanía entre ambos, junto con la expresividad y emoción.
+- **Objetos (`#6AD138`):** Colores variados, simulando los colores reales de sus idénticos, añadiéndole un toque brillante para la interacción.
 
 ### 5.4. Aspectos técnicos: cámara y representación
 
@@ -184,8 +183,7 @@ El juego utiliza un estilo oscuro, melancólico, con ciertos toques luminosos o 
 
 - **AAA** (Hollow Knight, 2017): tomamos como referencia la estética y el estilo visual que usan en el juego.
 - **AAA** (Pico Park, 2019): tomamos la jugabilidad y el diseño de niveles.
-- **BBB** (Water Girl and Fire boy): tomamos la jugabilidad y el diseño de niveles.
-- **CCC** (referencia cultural): CCC CCC CCC.
+- **BBB** (Fireboy and Watergirl, 2009): tomamos la jugabilidad y el diseño de niveles.
 
 ### 5.6. Bocetos de personajes y pantallas
 
@@ -197,18 +195,14 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 ### 6.1. Banda sonora
 
-| Pista | Escena | Estilo / ambiente | Fuente / licencia |
-| :--- | :--- | :--- | :--- |
-| AAA | Menú principal | Enter Hollownest | (propia / CC-BY: Christopher Larkin) |
-| CCC | Sala de espera | Greenpath | (propia / CC-BY: Christopher Larkin) |
-| CCC | Selector de nivel | The White Lady | (propia / CC-BY: Christopher Larkin) |
-| BBB | Nivel | Fungal Waste | (propia / CC-BY: Christopher Larkin) |
-| CCC | Victoria | Happy wheels victoria | (propia / CC-BY: Jack Zankowski) |
+| 1 | Menú principal | Enter Hollownest | (propia / CC-BY: Christopher Larkin) |
+| 2 | Sala de espera | Greenpath | (propia / CC-BY: Christopher Larkin) |
+| 3 | Selector de nivel | The White Lady | (propia / CC-BY: Christopher Larkin) |
+| 4 | Nivel | Fungal Waste | (propia / CC-BY: Christopher Larkin) |
+| 5 | Victoria | Happy wheels victoria | (propia / CC-BY: Jack Zankowski) |
 
 ### 6.2. Efectos de sonido
 
-| Efecto | Momento en que se reproduce |
-| :--- | :--- |
 | Salto | Al pulsar la tecla de salto |
 | Caída | Al morir un personaje |
 | Recoger objeto | Recoger/Soltar objeto |
@@ -285,24 +279,22 @@ flowchart TD
 
 ## 8. Comunicación y marketing
 
-- **Público y mensaje clave:** Publico infantil y familiar (PEGI 7) "la colaboración hace la fuerza".
-- **Canales:** redes sociales (Intagram, Twitter), itch.io, Newgrounds, Game Jolt...
+- **Público y mensaje clave:** Público infantil y familiar (PEGI 7) "la colaboración hace la fuerza".
+- **Canales:** redes sociales (Intagram, Twitter), itch.io, Steam...
 - **Calendario:** *teaser* en 2026, *devlog* semanal en 2026, lanzamiento en 2027.
-- **Material:** tráiler, capturas, GIF de jugabilidad, *press kit*.
-- **Eslogan:** «Seta-bien».
+- **Material:** tráiler, capturas, GIF de jugabilidad, *press kit*, más adelante.
+- **Eslogan:** «Setá-bien».
 
 ---
 
 ## 9. Referencias
 
-> *Rúbrica — Documento / Referencias.* Usad un formato consistente (p. ej. APA) y citadlas en el texto con [1], [2]...
+[1] Hollow Knight. (2017). *Hollow Knight Wiki*. [URL](https://hollowknight.fandom.com/wiki/Hollow_Knight_Wiki)
 
-[1] AAA, A. (Año). *Título de la obra*. Editorial / Estudio. URL
-
-[2] BBB, B. (Año). *Título del artículo*. Revista, volumen(número), páginas. https://doi.org/AAA
+[2] Pico Park. (2019). *Pico Park Portal*. [URL](https://picoparkgame.com/en/pp1/)
 
 [3] Schell, J. (2019). *The Art of Game Design: A Book of Lenses* (3.ª ed.). CRC Press.
 
 [4] Phaser Studio. (s. f.). *Phaser 3 Documentation*. https://docs.phaser.io
 
-[5] Recursos de terceros utilizados (sprites, música, fuentes): AAA — autor — licencia — URL.
+[5] Recursos de terceros utilizados (sprites, música, fuentes): Hollow Knight — Christopher Larkin — CC: Christopher Larkin — [URL](https://open.spotify.com/intl-es/album/4XgGOMRY7H4hl6OQi5wb2Z).
