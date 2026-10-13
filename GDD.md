@@ -89,7 +89,7 @@ El objetivo de los jugadores, al ser un juego cooperativo, es mediante la comuni
 
 #### 3.3.3. Sistema de puntuación
 
-AAA AAA AAA AAA (p. ej. +10 puntos por AAA, −5 por BBB).
+El nivel se completara si se recoge el recolectable principal. A la par, habrá disponibles otros recolectables secundarios con los que se desbloquearán estilos a lo largo del juego.
 
 ### 3.4. Físicas y dificultad
 
@@ -120,31 +120,29 @@ El escenario representa un nivel jugable. Cada nivel es distinto al anterior, po
 
 ### 4.1. Historia
 
-AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA.
-
-AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA.
+Una familia muy normal de 5 integrantes, siendo Fika, Tonko y Lali los tres hijos de Nico y Tina. Un día cualquiera, estaban los tres hermanos fuera plantando bacterias y recogiendo alimentos por los alrededores para hacerles un buen plato de comida a sus padres, pero de repente, al adentrarse mucho en el claro prohibido un ciempiés malvado apareció y secuestró a Lali llevándosela a las profundidades de las cavernas. Fika y Tonko, aterrados fueron a avisar a sus padres. Sin embargo, se encontraron a su padre muy enfermo en cama y su madre socorriéndolo. Entonces, al no haber otra alternativa, tuvieron que adentrarse juntas en las cavernas para rescatar a su hermana perdida.
 
 ### 4.2. Personajes
 
-#### AAA (Jugador 1)
+#### FIKA (Jugador 1)
 
 <img src="img/personaje_1.png" alt="Boceto del personaje AAA" width="250">
 
-- **Edad / origen:** AAA.
-- **Personalidad:** AAA AAA AAA.
-- **Motivación:** AAA AAA AAA.
-- **Habilidad especial:** AAA AAA AAA.
-- **Trasfondo:** AAA AAA AAA AAA AAA AAA AAA AAA AAA.
+- **Edad / origen:** 5 años
+- **Personalidad:** Una setita más tímida e inocente que es muy asustadiza con todo lo que se encuentra en las minas (Suele seguir a Take).
+- **Motivación:** Recuperar a su tercer hermano perdido en las profundidades de las minas.
+- **Habilidad especial:** No tiene habilidad especial específica.
+- **Trasfondo:** Su familia fue separada por culpa de un ciempiés y ahora debe acompañar a su hermana y afrontar sus miedos para recuperarla.
 
-#### BBB (Jugador 2)
+#### TAKE (Jugador 2)
 
 <img src="img/personaje_2.png" alt="Boceto del personaje BBB" width="250">
 
-- **Edad / origen:** BBB.
-- **Personalidad:** BBB BBB BBB.
-- **Motivación:** BBB BBB BBB.
-- **Habilidad especial:** BBB BBB BBB.
-- **Trasfondo:** BBB BBB BBB BBB BBB BBB BBB BBB BBB.
+- **Edad / origen:** 5 años
+- **Personalidad:** Una seta que es más valiente que Fika y suele adentrarse siempre a la aventura.
+- **Motivación:** Recuperar a su tercer hermano perdido en las profundidades de las minas.
+- **Habilidad especial:** No tiene habilidad especial específica.
+- **Trasfondo:** Su familia fue separada por culpa de un ciempiés y ahora debe apoyar a su hermana para afrontar los peligros que encuentren en las cavernas.
 
 ---
 
@@ -154,11 +152,9 @@ AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA.
 
 ![Logotipo del juego](img/logo.png)
 
-*Figura 3. Logotipo del juego. Tipografía: Trajan Pro. Concepto: AAA AAA AAA.*
+*Figura 3. Logotipo del juego. Tipografía: Trajan Pro. Concepto: El logo se ha desarrollado pensando en la estética de un hongo brillante que resalta en la oscuridad.*
 
 ### 5.2. Estilo visual
-
-> *Rúbrica — Imagen / Estilo visual:* pixel art, cartoon, vectorial, etc.
 
 El juego utiliza un estilo oscuro, melancólico, con ciertos toques luminosos o fluorescentes, dando la similitud al mundo subterráneo, lúgubre y apagado del que proceden los protagonistas.
 
@@ -186,9 +182,9 @@ El juego utiliza un estilo oscuro, melancólico, con ciertos toques luminosos o 
 
 *Figura 5. Moodboard con las referencias visuales.*
 
-- **AAA** (Hollow Knight, 2017): tomamos AAA AAA AAA [1].
-- **AAA** (Pico Park, 2019): tomamos AAA AAA AAA [1].
-- **BBB** (película / cómic / movimiento artístico): BBB BBB BBB [2].
+- **AAA** (Hollow Knight, 2017): tomamos como referencia la estética y el estilo visual que usan en el juego.
+- **AAA** (Pico Park, 2019): tomamos la jugabilidad y el diseño de niveles.
+- **BBB** (Water Girl and Fire boy): tomamos la jugabilidad y el diseño de niveles.
 - **CCC** (referencia cultural): CCC CCC CCC.
 
 ### 5.6. Bocetos de personajes y pantallas
@@ -203,11 +199,11 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 | Pista | Escena | Estilo / ambiente | Fuente / licencia |
 | :--- | :--- | :--- | :--- |
-| AAA | Menú principal | AAA (p. ej. *chiptune* relajado) | AAA (propia / CC-BY...) |
-| CCC | Sala de espera | CCC | CCC |
-| CCC | Selector de nivel | CCC | CCC |
-| BBB | Nivel | BBB (p. ej. ritmo rápido, 140 BPM) | BBB |
-| CCC | Victoria | CCC | CCC |
+| AAA | Menú principal | Enter Hollownest | (propia / CC-BY: Christopher Larkin) |
+| CCC | Sala de espera | Greenpath | (propia / CC-BY: Christopher Larkin) |
+| CCC | Selector de nivel | The White Lady | (propia / CC-BY: Christopher Larkin) |
+| BBB | Nivel | Fungal Waste | (propia / CC-BY: Christopher Larkin) |
+| CCC | Victoria | Happy wheels victoria | (propia / CC-BY: Jack Zankowski) |
 
 ### 6.2. Efectos de sonido
 
@@ -289,11 +285,11 @@ flowchart TD
 
 ## 8. Comunicación y marketing
 
-- **Público y mensaje clave:** AAA AAA AAA.
-- **Canales:** redes sociales (AAA, BBB), itch.io, Newgrounds, Game Jolt...
-- **Calendario:** *teaser* en AAA, *devlog* semanal en AAA, lanzamiento en AAA.
+- **Público y mensaje clave:** Publico infantil y familiar (PEGI 7) "la colaboración hace la fuerza".
+- **Canales:** redes sociales (Intagram, Twitter), itch.io, Newgrounds, Game Jolt...
+- **Calendario:** *teaser* en 2026, *devlog* semanal en 2026, lanzamiento en 2027.
 - **Material:** tráiler, capturas, GIF de jugabilidad, *press kit*.
-- **Eslogan:** «AAA AAA AAA».
+- **Eslogan:** «Seta-bien».
 
 ---
 
