@@ -40,7 +40,8 @@ Follow Down es un juego multijugador de puzles y plataformas cooperativo para 2 
 
 ## 2. Especificaciones básicas
 
-| **Título** | Follow Down |
+| Título | Follow Down |
+|---|---|
 | **Género** | Plataformas cooperativo, puzles |
 | **Número de jugadores** | 2 jugadores en red, tiempo real |
 | **Público objetivo** | Jugadores casuales a partir de 8 años. Ideal para familias! |
