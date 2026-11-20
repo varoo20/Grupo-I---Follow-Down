@@ -62,7 +62,7 @@ El objetivo de los jugadores, al ser un juego cooperativo, es mediante la comuni
 ### 3.2. Controles
 
 | **Moverse a la izquierda** | `A` | `←` |
-|---|---|
+|---|---|---|
 | **Moverse a la derecha** | `D` | `→` |
 | **Saltar** | `W` | `↑` |
 | **Agacharse** | `Shift` | `L` |
@@ -87,7 +87,7 @@ El objetivo de los jugadores, al ser un juego cooperativo, es mediante la comuni
 #### 3.3.2. Objetos y power-ups
 
 | Trébol | Recolectable | N/A | Fija en todos los niveles |
-|---|---|
+|---|---|---|---|
 | Puerta final | Interactuable | N/A | Final del nivel |
 | Pinchos | Interactuable | Hasta que caigan | Fija en los niveles, desaparece al caer |
 | Piedra | Interactuable | N/A | Fija en los niveles, se puede mover por 1/2 jugadores |
@@ -201,7 +201,7 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 ### 6.1. Banda sonora
 
 | 1 | Menú principal | Enter Hollownest | (propia / CC-BY: Christopher Larkin) |
-|---|---|
+|---|---|---|---|
 | 2 | Sala de espera | Greenpath | (propia / CC-BY: Christopher Larkin) |
 | 3 | Selector de nivel | The White Lady | (propia / CC-BY: Christopher Larkin) |
 | 4 | Nivel | Fungal Waste | (propia / CC-BY: Christopher Larkin) |
