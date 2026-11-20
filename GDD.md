@@ -71,6 +71,8 @@ El objetivo de los jugadores, al ser un juego cooperativo, es mediante la comuni
 | **Pausa / Reanudar** | `Esc` | `Esc` |
 | **Reiniciar Nivel** | `R` | `R` |
 
+---
+
 ### 3.3. Mecánicas
 
 #### 3.3.1. Mecánicas principales
