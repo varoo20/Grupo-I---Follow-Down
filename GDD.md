@@ -61,15 +61,15 @@ El objetivo de los jugadores, al ser un juego cooperativo, es mediante la comuni
 
 ### 3.2. Controles
 
-| Moverse a la izquierda | `A` | `←` |
+| **Moverse a la izquierda** | `A` | `←` |
 |---|---|
-| Moverse a la derecha | `D` | `→` |
-| Saltar | `W` | `↑` |
-| Agacharse | `Shift` | `L` |
-| Coger/Soltar Objeto | `Espacio` | `P` |
-| Interactuar con los botones dentro/fuera del nivel | Ratón (clic izquierdo) | Ratón (clic izquierdo) |
-| Pausa / Reanudar | `Esc` | `Esc` |
-| Reiniciar Nivel | `R` | `R` |
+| **Moverse a la derecha** | `D` | `→` |
+| **Saltar** | `W` | `↑` |
+| **Agacharse** | `Shift` | `L` |
+| **Coger/Soltar Objeto** | `Espacio` | `P` |
+| **Interactuar con los botones dentro/fuera del nivel** | Ratón (clic izquierdo) | Ratón (clic izquierdo) |
+| **Pausa / Reanudar** | `Esc` | `Esc` |
+| **Reiniciar Nivel** | `R` | `R` |
 
 ### 3.3. Mecánicas
 
