@@ -203,9 +203,9 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 | 1 | Menú principal | Enter Hollownest | (propia / CC-BY: Christopher Larkin) |
 |---|---|---|---|
 | 2 | Sala de espera | Greenpath | (propia / CC-BY: Christopher Larkin) |
-| 3 | Selector de nivel | The White Lady | (propia / CC-BY: Christopher Larkin) |
+| 3 | Creditos | The White Lady | (propia / CC-BY: Christopher Larkin) |
 | 4 | Nivel | Fungal Waste | (propia / CC-BY: Christopher Larkin) |
-| 5 | Victoria | Happy wheels victoria | (propia / CC-BY: Jack Zankowski) |
+| 5 | Ajustes/Ayuda | Shellwood | (propia / CC-BY: Christopher Larkin) |
 
 ### 6.2. Efectos de sonido
 
@@ -215,6 +215,7 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 | Recoger objeto | Recoger/Soltar objeto |
 | Botones de la interfaz | Al hacer clic |
 | Coleccionable | Al recoger coleccionable |
+| Victoria | Al ganar el nivel |
 
 ---
 
