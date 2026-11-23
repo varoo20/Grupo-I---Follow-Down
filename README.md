@@ -14,8 +14,11 @@ Follow Down es un juego multijugador de puzles y plataformas cooperativo para 2 
 ## Equipo de desarrollo
 
 | Álvaro Montero Carrasco | a.monteroc.2024@alumnos.urjc.es | `@varoo20` |
+|---|---|---|
 | Carla Urdiales Aguado | c.urdiales.2024@alumnos.urjc.es | `@marley-pixel` |
 | Jorge Franco Lopez de Gauna | j.francol.2024@alumnos.urjc.es | `@Hermenegildo305` |
+
+---
 
 **Repositorio:** `(https://github.com/varoo20/Grupo-I---Juegos-en-Red)`
 
@@ -43,9 +46,9 @@ Apartados principales:
 ## Fases del proyecto
 
 | Fase 1 | Equipo, temática y GDD | ✅ Entregada |
-
-| Fase 2 | Juego en local | ⏳ Pendiente |
-
+|---|---|---|
+| Fase 2 | Juego en local | ⏳ En proceso! |
 | Fase 3 | API REST | ⏳ Pendiente |
-
 | Fase 4 | WebSockets | ⏳ Pendiente |
+
+---
