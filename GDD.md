@@ -264,18 +264,19 @@ A continuación se mostrara el diseño final de dichas pantallas
 
 <p align="center">
   <img src="img/Ajustes.png" alt="Boceto de ajustes" width="45%">
-  <img src="img/boceto_pausa.png" alt="Boceto de pausa" width="45%">
+  <img src="img/PausaFinal.png" alt="Boceto de pausa" width="45%">
 </p>
 
-*Figura 11. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
+*Figura 11. Pantalla de ajustes (izquierda) y pausa de la partida (derecha).*
 
-**Créditos**
+**Créditos y Victoria**
 
 <p align="center">
   <img src="img/CREDITOS.png" alt="Boceto de creditos" width="45%">
+  <img src="img/NivelCompletado.png" alt="Boceto de pausa" width="45%">
 </p>
 
-*Figura 12. Pantalla de créditos*
+*Figura 12. Pantalla de créditos (izquierda) y nivel completado (derecha)*
 
 ### 7.2. Diagrama de flujo
 
