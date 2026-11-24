@@ -186,7 +186,7 @@ El juego utiliza un estilo oscuro, melancólico, con ciertos toques luminosos o 
 
 ![Moodboard de inspiración](img/moodboard_inspiracion.png)
 
-*Figura 5. Moodboard con las referencias visuales.*
+*Figura 6. Moodboard con las referencias visuales.*
 
 - **1** (Hollow Knight, 2017): tomamos como referencia la estética y el estilo visual que usan en el juego.
 - **2** (Pico Park, 2019): tomamos la jugabilidad y el diseño de niveles.
@@ -229,19 +229,19 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 ![Boceto del menú principal](img/boceto_menu_principal.png)
 
-*Figura 6. Menú principal: Follow Down*
+*Figura 7. Menú principal: Follow Down*
 
 **Pantalla de juego (HUD)**
 
 ![Boceto de la pantalla de juego](img/boceto_pantalla_salas.png)
 
-*Figura 7. Pantalla de juego: Creación de salas, boceto.*
+*Figura 8. Pantalla de juego: Creación de salas, boceto.*
 
 **Pantalla de juego 2 (HUD)**
 
 ![Boceto de la pantalla de juego](img/boceto_pantalla_selector_nivel.png)
 
-*Figura 8. Pantalla de juego: Selector de niveles, boceto.*
+*Figura 9. Pantalla de juego: Selector de niveles, boceto.*
 
 **Ajustes y pausa**
 
@@ -250,7 +250,15 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
   <img src="img/boceto_pausa.png" alt="Boceto de pausa" width="45%">
 </p>
 
-*Figura 9. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
+*Figura 10. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
+
+**Créditos**
+
+<p align="center">
+  <img src="img/CREDITOS.png" alt="Boceto de creditos" width="45%">
+</p>
+
+*Figura 11. Pantalla de créditos*
 
 ### 7.2. Diagrama de flujo
 
@@ -279,7 +287,7 @@ flowchart TD
     
 ```
 
-*Figura 10. Diagrama de flujo entre pantallas.*
+*Figura 12. Diagrama de flujo entre pantallas.*
 
 ---
 
