@@ -242,7 +242,7 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 ![Boceto de la pantalla de juego](img/boceto_pantalla_selector_nivel.png)
 
 Pantalla final
-![Imagen final](img/MenuPrincipal.jpg.png)
+![Imagen final](img/MenuPrincipal.png)
 
 *Figura 9. Pantalla de juego: Selector de niveles, boceto.*
 
