@@ -244,11 +244,6 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 *Figura 9. Pantalla de juego: Selector de niveles, boceto.*
 
 
-**Menu Principal**
-![Imagen final](img/MenuPrincipal.png)
-*Figura 10. Menu Principal.*
-
-
 **Ajustes y pausa**
 
 <p align="center">
@@ -256,7 +251,7 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
   <img src="img/boceto_pausa.png" alt="Boceto de pausa" width="45%">
 </p>
 
-*Figura 11. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
+*Figura 10. Pantalla de ajustes (izquierda) || Figura 11. Boceto de pausa (derecha).*
 
 
 
@@ -267,7 +262,7 @@ A continuación se mostrara el diseño final de dichas pantallas
   <img src="img/PausaFinal.png" alt="Boceto de pausa" width="45%">
 </p>
 
-*Figura 11. Pantalla de ajustes (izquierda) y pausa de la partida (derecha).*
+*Figura 12. Pantalla de ajustes (izquierda) || Figura 13. Pausa de la partida (derecha).*
 
 **Créditos y Victoria**
 
@@ -276,7 +271,7 @@ A continuación se mostrara el diseño final de dichas pantallas
   <img src="img/NivelCompletado.png" alt="Boceto de pausa" width="45%">
 </p>
 
-*Figura 12. Pantalla de créditos (izquierda) y nivel completado (derecha)*
+*Figura 14. Pantalla de créditos (izquierda) || Figura 15. Nivel completado (derecha)*
 
 ### 7.2. Diagrama de flujo
 
