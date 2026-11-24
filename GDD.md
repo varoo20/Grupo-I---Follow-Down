@@ -213,7 +213,9 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 | Salto | Al pulsar la tecla de salto |
 |---|---|
-| Caída | Al morir un personaje |
+| Muerte | Al morir un personaje |
+| Roca | Al mover una roca |
+| Puerta | Al tocar una puerta correspondiente |
 | Recoger objeto | Recoger/Soltar objeto |
 | Botones de la interfaz | Al hacer clic |
 | Coleccionable | Al recoger coleccionable |
