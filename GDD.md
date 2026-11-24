@@ -115,7 +115,7 @@ El escenario representa un nivel jugable. Cada nivel es distinto al anterior, po
 4. **Zona 4:** Zona de finalización del nivel.
 
 ![Mapa del escenario](img/mapa_escenario.png)
-![Mapa del escenario](img/final_mapa_1.png)
+![Mapa del escenario](img/final_mapa.png)
 
 *Figura 2. Mapa del escenario con zonas de aparición, plataformas y obstáculos.*
 
