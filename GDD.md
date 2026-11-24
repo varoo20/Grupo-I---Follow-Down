@@ -272,7 +272,7 @@ A continuación se mostrara el diseño final de dichas pantallas
 **Créditos y Victoria**
 
 <p align="center">
-  <img src="img/CREDITOS.png" alt="Boceto de creditos" width="45%">
+  <img src="img/creditos.png" alt="Boceto de creditos" width="45%">
   <img src="img/NivelCompletado.png" alt="Boceto de pausa" width="45%">
 </p>
 
