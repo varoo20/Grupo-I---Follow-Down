@@ -87,6 +87,7 @@ El objetivo de los jugadores, al ser un juego cooperativo, es mediante la comuni
 #### 3.3.2. Objetos y power-ups
 
 | Trébol | Recolectable | N/A | Fija en todos los niveles |
+| Baya ingra | Recolectable | N/A | Fija en todos los niveles, invierte gravedad |
 |---|---|---|---|
 | Puerta final | Interactuable | N/A | Final del nivel |
 | Pinchos | Interactuable | Hasta que caigan | Fija en los niveles, desaparece al caer |
@@ -95,7 +96,7 @@ El objetivo de los jugadores, al ser un juego cooperativo, es mediante la comuni
 
 #### 3.3.3. Sistema de puntuación
 
-El nivel se completara si se recoge el recolectable principal. A la par, habrá disponibles otros recolectables secundarios con los que se desbloquearán estilos a lo largo del juego.
+El nivel se completará si se recoge el recolectable principal. A la par, habrá disponibles otros recolectables secundarios con los que se desbloquearán estilos a lo largo del juego.
 
 ### 3.4. Físicas y dificultad
 
@@ -126,7 +127,7 @@ El escenario representa un nivel jugable. Cada nivel es distinto al anterior, po
 
 ### 4.1. Historia
 
-Una familia muy normal de 5 integrantes, siendo Fika, Tonko y Lali los tres hijos de Nico y Tina. Un día cualquiera, estaban los tres hermanos fuera plantando bacterias y recogiendo alimentos por los alrededores para hacerles un buen plato de comida a sus padres, pero de repente, al adentrarse mucho en el claro prohibido un ciempiés malvado apareció y secuestró a Lali llevándosela a las profundidades de las cavernas. Fika y Tonko, aterrados fueron a avisar a sus padres. Sin embargo, se encontraron a su padre muy enfermo en cama y su madre socorriéndolo. Entonces, al no haber otra alternativa, tuvieron que adentrarse juntas en las cavernas para rescatar a su hermana perdida.
+Una familia muy normal de 5 integrantes, siendo Fika, Take y Lali los tres hijos de Nico y Tina. Un día cualquiera, estaban los tres hermanos fuera plantando bacterias y recogiendo alimentos por los alrededores para hacerles un buen plato de comida a sus padres, pero de repente, al adentrarse mucho en el claro prohibido un ciempiés malvado apareció y secuestró a Lali llevándosela a las profundidades de las cavernas. Fika y Take, aterrados fueron a avisar a sus padres. Sin embargo, se encontraron a su padre muy enfermo en cama y su madre socorriéndolo. Entonces, al no haber otra alternativa, tuvieron que adentrarse juntas en las cavernas para rescatar a su hermana perdida.
 
 ### 4.2. Personajes
 
@@ -263,7 +264,7 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 
 
-A continuación se mostrara el diseño final de dichas pantallas
+A continuación se mostrará el diseño final de dichas pantallas:
 
 <p align="center">
   <img src="img/Ajustes.png" alt="Boceto de ajustes" width="45%">
